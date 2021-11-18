@@ -1,0 +1,36 @@
+:root {
+    --ff-primary: "Roboto", sans-serif;
+    --ff-accent: "Playfair display", serif;
+    --ff-colour: #ffff;
+}
+
+body {
+    background-color: #373a3c;
+    font-family: var(--ff-primary);
+    color: var(--ff-colour);
+    font-weight: bold;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+    color: #ffff;
+}
+
+.bg-plain {
+    background-color: #373a3c;
+}
+
+.flex-container {
+    display: flex;
+    padding: 3%;
+}
+
+.flex-child {
+    flex: 1;
+}
