@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/bootstrap.css" />
+    <link rel="stylesheet" href="stylesheets/htmlstyles.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <title>Document</title>
+  </head>
+  <style>
+    .lb-bg {
+      background-color: #212529;
+      text-align: right;
+    }
+    .lb-text {
+      color: #ffff;
+      font-weight: lighter;
+      text-decoration: none;
+    }
+    .a-link {
+      color: #ffff;
+      text-decoration: none;
+    }
+    @media (min-width: 768px) {
+      .lb-img {
+        width: 2.5vw;
+        height: 2.5vh;
+      }
+
+      .lb-bg {
+        padding-right: 15%;
+      }
+    }
+    @media (max-width: 768px) {
+      .lb-img {
+        width: 5vw;
+        height: 2.5vh;
+      }
+    }
+  </style>
+  <body>
+    <p class="lb-bg lb-text">
+      <img class="lb-img" src="images/user.png" /><a href="login.php" class="a-link"><strong>Login/Signup</strong></a>
+    </p>
+  </body>
+</html>

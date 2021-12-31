@@ -1,19 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="stylesheets/htmlstyles.css?v=<?php echo time(); ?>"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="js/bootstrap.min.js"></script>
     <title>Document</title>
-</head>
-<body>
-    <!--
-    <footer class="bg-light text-center text-lg-start">
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2021 Copyright:
-          <a class="text-dark" href="#">MentalHealth.net</a>
-        </div>
-      </footer>
-      -->
-</body>
+  </head>
+  <style>
+    #tc1 {
+      padding-left: 3%;
+      padding-top: 3%;
+    }
+    #address {
+      margin-bottom: 5%;
+    }
+    #lft {
+      padding: 0.65rem;
+      color: #ffff;
+    }
+    #foot {
+      color: #ffff;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      list-style: none;
+    }
+
+    .list-item {
+      color: #ffff;
+      text-decoration: none;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out;
+    }
+
+    .foot-container {
+      display: flex;
+    }
+
+    .foot-child {
+      flex: 0.245;
+    }
+
+    .face {
+      margin-bottom: 1.5vh;
+    }
+
+    .twit {
+      margin-bottom: 1.5vh;
+    }
+    @media (max-width: 768px) {
+      #tc1 {
+        overflow-x: auto;
+      }
+
+      .foot-table {
+        width: 800px;
+      }
+
+      .foot-table p {
+        text-align: left;
+      }
+    }
+  </style>
+  <body>
+    <div id="tc1">
+      <table id="foot" class="foot-table">
+        <tr>
+          <th><h5 class="h5">Other Links</h5></th>
+          <th><h5 class="h5">Opening Hours</h5></th>
+          <th><h5 class="h5">Our Address</h5></th>
+          <th><h5 class="h5">Social Media</h5></th>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>
+                <p><a href="#" class="list-item">Terms and Conditions</a></p>
+              </li>
+              <li>
+                <p><a href="#" class="list-item">Returns Policy</a></p>
+              </li>
+              <li>
+                <p><a href="#" class="list-item">Join our Team</a></p>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>
+                <p class="list-item">Monday - Friday 9am - 6pm</p>
+              </li>
+              <li>
+                <p class="list-item">Weekends 11am - 5pm</p>
+              </li>
+              <li>
+                <p class="list-item">Bank Holidays Closed</p>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul id="address">
+              <li><h6>Unit 6, Sandyford Park,</h6></li>
+              <li><h6>Sandyford Industrial Estate,</h6></li>
+              <li><h6>D11,</h6></li>
+              <li><h6>Dublin</h6></li>
+            </ul>
+          </td>
+          <td class="foot-container">
+            <ul class="foot-child">
+              <li
+                a
+                href="https://www.facebook.com/"
+                class="fa fa-facebook"
+              ></li>
+              <li a href="https://twitter.com/" class="fa fa-twitter"></li>
+              <li
+                a
+                href="https://instagram.com/__ttseason"
+                class="fa fa-instagram"
+              ></li>
+            </ul>
+            <ul id="names" class="foot-child">
+              <li class="face"><h6>LogmasLtd</h6></li>
+              <li class="twit"><h6>Logmas10</h6></li>
+              <li class="insta"><h6>logmasLtd__</h6></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="lower-foot" style="background-color: #212529">
+      <h5 id="lft" style="text-align: center">
+        <strong>&copy; Logmas 2021. Website developed by Kieran Whelan</strong>
+      </h5>
+    </div>
+  </body>
 </html>

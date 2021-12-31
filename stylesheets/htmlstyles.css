@@ -2,7 +2,7 @@
   --ff-primary: "Roboto", sans-serif;
   --ff-accent: "Playfair display", serif;
   --ff-colour: #373a3c;
-  --c-info: #9954bb;
+  --fa-margin: 2.5vh;
 }
 
 body {
@@ -12,48 +12,6 @@ body {
   font-weight: 500;
   font-size: 1.3125rem;
   line-height: 1.6;
-}
-
-.center {
-  text-align: center;
-}
-
-.bg-grey {
-  background-color: #eeeeee;
-}
-
-.bg-grey-light {
-  background-color: #f8f9fa;
-}
-
-.bg-white {
-  background-color: #ffff;
-}
-
-.bg-dark {
-  background-color: #373a3c;
-}
-
-.flex-container {
-  display: flex;
-  padding: 3%;
-}
-
-.flex-child {
-  flex: 1;
-}
-
-.title {
-  color: red;
-}
-
-.title-underline {
-  text-decoration-line: underline;
-  text-decoration-color: green;
-}
-
-.highlight {
-  color: var(--c-info);
 }
 
 .h5 {
